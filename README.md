@@ -10,7 +10,7 @@
 6. Evaluate assembly quality and completeness statistics
 7. Cluster assembly contigs to remove redundancy and duplications
 8. Search for homologous transcripts against non-redundant nucleotide databases 
-9. Gene content and annotation completeness - _still working on it_
+9. Gene content, quantification, and annotation  - _still working on it_
 
 # Update the path to working directory (R=) in following files:
 - submit_slurm.sh
