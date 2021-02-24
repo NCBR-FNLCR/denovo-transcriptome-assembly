@@ -1,0 +1,5 @@
+rawdata_dir: "/data/NCBR/projects/SRasmbly/raw"
+result_dir: "/data/NCBR/projects/SRasmbly/denovo-transcriptome-assembly" ## Make sure these directory exists and Snakefile is in it
+TAXID: "10117" ## Rattus
+Lineage_name: "glires"
+Lineage: "~/References/Odb10/Vertebrata/eutheria/euarchontoglires/glires_odb10" 

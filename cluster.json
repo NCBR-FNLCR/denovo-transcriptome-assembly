@@ -1,0 +1,82 @@
+#cluster.json
+{
+      "__default__": {
+              "mem": "50g",
+              "time": "10:00:00",
+              "partition": "norm",
+              "threads": "8",
+              "gres": "lscratch:500"
+      },
+      "rcorrector":{
+              "mem": "50g",
+              "time": "3-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "sample_assembly": {
+              "mem": "300g",
+              "time": "2-00:00:00",
+              "partition": "largemem",
+              "threads": "32",
+      },
+      "stats_quast": {
+              "mem": "100g",
+              "time": "2-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "stats_transrate": {
+              "mem": "150g",
+              "time": "2-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "merge_sample_assemblies": {
+              "mem": "100g",
+              "time": "10-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "denovo_asmB": {
+              "mem": "300g",
+              "time": "2-00:00:00",
+              "partition": "largemem",
+              "threads": "32",
+      },
+      "mergeA_quast": {
+              "mem": "100g",
+              "time": "2-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "mergeA_transrate": {
+              "mem": "150g",
+              "time": "2-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "mergeB_quast": {
+              "mem": "100g",
+              "time": "2-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "mergeB_transrate": {
+              "mem": "150g",
+              "time": "2-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "alignment_to_asm": {
+              "mem": "100g",
+              "time": "10-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      },
+      "cluster_merged_transcripts":{
+              "mem": "150g",
+              "time": "3-00:00:00",
+              "partition": "norm",
+              "threads": "32",
+      }
+}
