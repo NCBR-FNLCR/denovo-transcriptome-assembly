@@ -1,4 +1,4 @@
-# Short read based denovo transcriptome assembly pipeline
+# Short-read denovo transcriptome assembly pipeline
 - based on Snakemake version 5.13.0
 - based on Trinity version 2.9.0
 
@@ -10,7 +10,7 @@
 6. Evaluate assembly quality and completeness statistics
 7. Cluster assembly contigs to remove redundancy and duplications
 8. Search for homologous transcripts against non-redundant nucleotide databases 
-9. Gene content, quantification, and annotation  - _still working on it_
+9. Gene content, quantification, and annotation  - _in progress_
 
 # Update the path to working directory (R=) in following files:
 - submit_slurm.sh
