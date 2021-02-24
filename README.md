@@ -5,12 +5,12 @@
 # Steps in the pipeline:
 1. Creates symbolic links for raw sequencing data in working directory
 3. Performs quality control, adapter removal, quality trimming, k-mer based error correction
-4. Taxonomic classification of read sequences
+4. Taxonomic classification of pre-processed read sequences (read contamination)
 5. Generate denovo assemblies for each sample separately and all samples combined.
 6. Evaluate assembly quality and completeness statistics
 7. Cluster assembly contigs to remove redundancy and duplications
 8. Search for homologous transcripts against non-redundant nucleotide databases 
-9. Gene content and annotation completeness - still working on it
+9. Gene content and annotation completeness - _still working on it_
 
 # Update the path to working directory (R=) in following files:
 - submit_slurm.sh
